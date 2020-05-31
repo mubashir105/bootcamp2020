@@ -7,8 +7,6 @@ name: bootcamp 2020
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -18,22 +16,6 @@ jobs:
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks tha Code
- Issues 0
- Pull requests 0 Actions
- Projects 0
- Wiki
- Security 0
- Insights
- Settings
-Branch: master 
-bootcamp2020/.github/workflows/auto_deploy.yml
-Find fileCopy path
-￼ mubashir105 Create auto_deploy.yml
-0ab75c4 2 minutes ago
-1 contributor
-36 lines (29 sloc)  1.11 KB
-RawBlameHistory
-￼ t will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
